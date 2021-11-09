@@ -2,6 +2,20 @@ body {
     background-image: url("https://image.freepik.com/foto-gratis/fondo-gris-pintado_53876-94041.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    
+}
+header {
+  display: block;
+  text-align: center;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.logo img{
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+
 }
 
 .button {
