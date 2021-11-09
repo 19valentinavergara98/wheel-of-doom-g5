@@ -31,12 +31,7 @@ body {
   border-radius: 15px;
   background-color: transparent;
 }
-.alive {
-  box-shadow: 0px 4px 8px yellowgreen;
-  background-image: url("img/shooting.png");
-  background-size: cover;
-  color: rgb(68, 68, 68);
-}
+
 .dead {
   box-shadow: 0px 4px 8px tomato;
   background-image: url("img/little_miss_sunshine.jpeg");
