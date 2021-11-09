@@ -1,4 +1,9 @@
-<<<<<<< HEAD
+body {
+    background-image: url("https://image.freepik.com/foto-gratis/fondo-gris-pintado_53876-94041.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .button {
     margin: 15px;
     background-color: #851717;
@@ -15,12 +20,8 @@
   .botones {
     text-align: center;
   }
-=======
 
 
-body {
-    background-image: url("https://image.freepik.com/foto-gratis/fondo-gris-pintado_53876-94041.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
->>>>>>> 4787127225f66c1b279078279ab101db515faede
+
+
+
