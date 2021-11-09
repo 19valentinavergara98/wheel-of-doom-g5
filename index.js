@@ -23,7 +23,7 @@ let listaCoders = [ {name:"LauraCa",status:"alive"},
 {name:"Gracia",status:"alive"},
 {name:"Alexia",status:"alive"},
 {name:"Marisa",status:"alive"},
-{name:"Laura C",status:"alive"},
+{name:"Laura Mayas",status:"alive"},
 {name:"Rosa",status:"alive"},
 {name:"Kristina",status:"alive"},
 ];
