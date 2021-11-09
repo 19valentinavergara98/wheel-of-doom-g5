@@ -1,6 +1,4 @@
-
-function elegirCoders(){
-    let listaCoders = [ {name:"LauraC",status:"alive"},
+let listaCoders = [ {name:"LauraC",status:"alive"},
     {name:"Sandra",status:"alive"},
     {name:"Valentina",status:"alive"},
     {name:"Tamara",status:"alive"},
@@ -24,11 +22,15 @@ function elegirCoders(){
     {name:"Rosa",status:"alive"},
     {name:"Kristina",status:"alive"},
     ];
+function elegirCoders(){
+    
 
     let coderElegida = Math.floor(Math.random()*listaCoders.length);
-    document.getElementById('startButton').innerHTML= coderElegida /*"<p>Nombre:</p><div class="mostrar"></div>"*/
+    document.getElementById('startButton').innerHTML=' <section class="mostrarnombre"><p>nombre:</p></section>'+coderElegida;
+    
     
 }
+
 
 
 
