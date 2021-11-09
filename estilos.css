@@ -2,9 +2,14 @@ body {
     background-image: url("https://image.freepik.com/foto-gratis/fondo-gris-pintado_53876-94041.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Mohave', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     
 }
 header {
+
   display: block;
   text-align: center;
   padding: 30px;
@@ -18,7 +23,7 @@ header {
 
 }
 
-.button {
+button {
     margin: 15px;
     background-color: #851717;
     border: none;
