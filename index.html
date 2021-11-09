@@ -19,14 +19,21 @@
     </header>
     <main>
         <section class="botones">
-            <button id="startButton" >Start</button>
-            <button id="resetButton">Reset</button>
-            <button id="addcoder" >Groups</button>
+            <button id="startButton" onclick="elegirCoders()">Start</button>
+            <button id="resetButton" onclick="resetear()">Reset</button>
+            <button id="addcoder" onclick="generarGrupo()" >Groups</button>
         </section>
 
-        <section class="listanombres">
-            
+        <section class="mostrarnombre">
+            <p id="nombreElegido"></p>
         </section>
+        <section class="coderList">
+
+        </section>
+        <audio id="audiosDisparo">
+            
+        </audio>
+
     </main>
 
 </body>
