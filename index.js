@@ -1,6 +1,6 @@
 
 function elegirCoders(){
-    let listaCoders = [ {name:"LauraCa",status:"alive"},
+    let listaCoders = [ {name:"LauraC",status:"alive"},
     {name:"Sandra",status:"alive"},
     {name:"Valentina",status:"alive"},
     {name:"Tamara",status:"alive"},
@@ -20,7 +20,7 @@ function elegirCoders(){
     {name:"Gracia",status:"alive"},
     {name:"Alexia",status:"alive"},
     {name:"Marisa",status:"alive"},
-    {name:"Laura Mayas",status:"alive"},
+    {name:"Laura M",status:"alive"},
     {name:"Rosa",status:"alive"},
     {name:"Kristina",status:"alive"},
     ];

@@ -40,6 +40,12 @@ button {
     text-align: center;
   }
 
+  .alive {
+    box-shadow: 0px 4px 8px rgba(225, 94, 23, 0.927);
+    background-image: url("img/shooting.png");
+    background-size: cover;
+    color: rgb(68, 68, 68);
+  }
 
 
 
