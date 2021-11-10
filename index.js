@@ -1,4 +1,14 @@
 
+let startButton=document.querySelector("#startButton");
+let resetButton=document.querySelector("#resetButton");
+let addButton=document.querySelector("#addcoder");
+ 
+startButton.addEventListener("click",elegirCoders);
+resetButton.addEventListener("click",resetear);
+addButton.addEventListener("click",generarGrupo);
+
+
+
 let listaCoders = [ "LauraC",
     "Sandra",
     "Valentina",
@@ -32,7 +42,10 @@ function elegirCoders(){
 
 }
 
+function resetear(){
 
+    
+}
 
 
 
