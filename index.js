@@ -33,14 +33,12 @@ let listaCoders = [ {name:"LauraC",status:"viva"},
     {name:"Rosa",status:"viva"},
     {name:"Kristina",status:"viva"},
     ];
-function elegirCoders(){
 
-   
-    let coderElegida = listaCoders[Math.floor(Math.random()*listaCoders.length)];
-    document.getElementById('startButton').innerHTML=' <section class="mostrarnombre"><p>nombre:</p></section>'+coderElegida;
-    
+    function elegirCoders(){
+        const selectedCoder = array[Math.floor(Math.random() * array.length)];
+        return selectedCoder;
+      }
 
-}
 
 function resetear(){
 
