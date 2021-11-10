@@ -23,14 +23,14 @@ let listaCoders = [ "LauraC",
     "Rosa",
     "Kristina",
     ];
-function elegirCoders(){
 
+    function elegirCoders(){
+        const selectedCoder = array[Math.floor(Math.random() * array.length)];
+        return selectedCoder;
+      }
    
-    let coderElegida = listaCoders[Math.floor(Math.random()*listaCoders.length)];
-    document.getElementById('startButton').innerHTML=' <section class="mostrarnombre"><p>nombre:</p></section>'+coderElegida;
+  
     
-
-}
 
 
 
