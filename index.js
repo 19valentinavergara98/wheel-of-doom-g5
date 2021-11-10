@@ -35,7 +35,6 @@ let listaCoders = [ {name:"LauraC"},
     ];
 function elegirCoders(){
 
-   
     let coderElegida = listaCoders[Math.floor(Math.random()*listaCoders.length)];
     document.getElementById('startButton').innerHTML=' <section class="mostrarnombre"><p>nombre:</p></section>'+coderElegida;
     
@@ -44,8 +43,8 @@ function elegirCoders(){
 
 function resetear(){
 
-    
-}
+
+
 
 
 
