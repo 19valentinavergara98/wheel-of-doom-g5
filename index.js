@@ -1,34 +1,50 @@
 
-let listaCoders = [ {name:"LauraC",status:"alive"},
-    {name:"Sandra",status:"alive"},
-    {name:"Valentina",status:"alive"},
-    {name:"Tamara",status:"alive"},
-    {name:"Judith",status:"alive"},
-    {name:"Helen",status:"alive"},
-    {name:"Carmen",status:"alive"},
-    {name:"Candy",status:"alive"},
-    {name:"Gabrielle",status:"alive"},
-    {name:"Yulilla",status:"alive"},
-    {name:"Anna G",status:"alive"},
-    {name:"Sonia",status:"alive"},
-    {name:"Desirée",status:"alive"},
-    {name:"Alisa",status:"alive"},
-    {name:"Faby",status:"alive"},
-    {name:"Ana C",status:"alive"},
-    {name:"Joana",status:"alive"},
-    {name:"Gracia",status:"alive"},
-    {name:"Alexia",status:"alive"},
-    {name:"Marisa",status:"alive"},
-    {name:"Laura M",status:"alive"},
-    {name:"Rosa",status:"alive"},
-    {name:"Kristina",status:"alive"},
+let startButton=document.querySelector("#startButton");
+let resetButton=document.querySelector("#resetButton");
+let addButton=document.querySelector("#addcoder");
+ 
+startButton.addEventListener("click",elegirCoders);
+resetButton.addEventListener("click",resetear);
+addButton.addEventListener("click",generarGrupo);
+
+
+
+let listaCoders = [ {name:"LauraC"},
+    {name:"Sandra"},
+    {name:"Valentina"},
+    {name:"Tamara"},
+    {name:"Judith"},
+    {name:"Helen"},
+    {name:"Carmen"},
+    {name:"Candy"},
+    {name:"Gabrielle"},
+    {name:"Yulilla"},
+    {name:"Anna G"},
+    {name:"Sonia"},
+    {name:"Desirée"},
+    {name:"Alisa"},
+    {name:"Faby"},
+    {name:"Ana C"},
+    {name:"Joana"},
+    {name:"Gracia"},
+    {name:"Alexia"},
+    {name:"Marisa"},
+    {name:"Laura M"},
+    {name:"Rosa"},
+    {name:"Kristina"},
     ];
-function elegirCoders(){
-    
 
-    let coderElegida = Math.floor(Math.random()*listaCoders.length);
+
+
+    function elegirCoders(){
+
+    let coderElegida = listaCoders[Math.floor(Math.random()*listaCoders.length)];
     document.getElementById('startButton').innerHTML=' <section class="mostrarnombre"><p>nombre:</p></section>'+coderElegida;
-    
+    }
 
-}
 
+
+
+
+function resetear(){
+ }
