@@ -1,50 +1,32 @@
 
-let startButton=document.querySelector("#startButton");
-let resetButton=document.querySelector("#resetButton");
-let addButton=document.querySelector("#addcoder");
- 
-startButton.addEventListener("click",elegirCoders);
-resetButton.addEventListener("click",resetear);
-addButton.addEventListener("click",generarGrupo);
+let listaCoders = ["Sandra", "Valentina", "Laura", "Rosa"];
 
-
-
-let listaCoders = [ {name:"LauraC"},
-    {name:"Sandra"},
-    {name:"Valentina"},
-    {name:"Tamara"},
-    {name:"Judith"},
-    {name:"Helen"},
-    {name:"Carmen"},
-    {name:"Candy"},
-    {name:"Gabrielle"},
-    {name:"Yulilla"},
-    {name:"Anna G"},
-    {name:"Sonia"},
-    {name:"Desirée"},
-    {name:"Alisa"},
-    {name:"Faby"},
-    {name:"Ana C"},
-    {name:"Joana"},
-    {name:"Gracia"},
-    {name:"Alexia"},
-    {name:"Marisa"},
-    {name:"Laura M"},
-    {name:"Rosa"},
-    {name:"Kristina"},
-    ];
-
-
-
+    // Declarar variable que alude al botón
+    const startButton = document.getElementById('startButton');
+    //Crear el eventListener "boton start, tipo click"
+    startButton.addEventListener("click", elegirCoders);
+    //Variable que indica
+    const showCoders = document.getElementById('showCoders');
+    //Crear la función que nos dará el nombre aleatorio
     function elegirCoders(){
 
     let coderElegida = listaCoders[Math.floor(Math.random()*listaCoders.length)];
-    document.getElementById('startButton').innerHTML=' <section class="mostrarnombre"><p>nombre:</p></section>'+coderElegida;
+
+    showCoders.innerHTML= coderElegida;
+    
     }
+    
+
+    
+
+    
+
+    
 
 
 
 
 
-function resetear(){
- }
+
+
+
