@@ -33,11 +33,7 @@ listaCoders.forEach(coderElegida =>
     
     
 
-    
 
-
-
-    
 
     
 
@@ -45,6 +41,11 @@ listaCoders.forEach(coderElegida =>
 
 
 
+    
+
+    
+
+    
 
 
 
@@ -52,3 +53,14 @@ listaCoders.forEach(coderElegida =>
 
 
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 0faada810a3c3fea3b2989a8e583a1bb6a9b62bb
+>>>>>>> c25c52706a1a33d0586ce1cf9df4ce36244b953e
+>>>>>>> 1b407121924373e86d27bf8666b2b9fa829f8baf
+=======
+
+
+>>>>>>> 132d0a8124cb3c82116cd43a7428c862c3a50f68
