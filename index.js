@@ -1,6 +1,11 @@
 
-let listaCoders = ["Sandra", "Valentina", "Laura", "Rosa"];
+let listaCoders = ["Sandra", "Valentina","Laura", "Rosa","Tamara","Judith","Helen","Carmen","Candy","Gabrielle","Yulilla","Anna G",
+"Sonia","Desirée","Alisa","Faby",
+"Ana C", "Joana","Gracia","Alexia","Marisa","Laura M","Rosa","Kristina"];
 
+
+
+    
     // Declarar variable que alude al botón
     const startButton = document.getElementById('startButton');
     //Crear el eventListener "boton start, tipo click"
@@ -15,6 +20,7 @@ let listaCoders = ["Sandra", "Valentina", "Laura", "Rosa"];
     showCoders.innerHTML= coderElegida;
     
     }
+<<<<<<< HEAD
     
 
 
@@ -32,3 +38,5 @@ let listaCoders = ["Sandra", "Valentina", "Laura", "Rosa"];
 
 
 
+=======
+>>>>>>> 0faada810a3c3fea3b2989a8e583a1bb6a9b62bb
