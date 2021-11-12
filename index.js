@@ -6,7 +6,7 @@ let listaCoders = ["Sandra", "Valentina", "Laura", "Rosa"];
     //Crear el eventListener "boton start, tipo click"
     startButton.addEventListener("click", elegirCoders);
     //Variable que indica
-    const showCoders = document.getElementById('showCoders');
+    const showCoders = document.getElementById('nombreElegido');
     //Crear la función que nos dará el nombre aleatorio
     function elegirCoders(){
 
