@@ -22,7 +22,7 @@ function elegirCoders() {
 }
 
 listaCoders.forEach(coderElegida =>
-    document.getElementById("coderList").innerHTML +="<div id=showCoders>"+coderElegida+"</div>"
+    document.getElementById("coderList").innerHTML +="<div id=showCoders><p class='showname'>"+coderElegida+"</p></div>"
 
 )
 
