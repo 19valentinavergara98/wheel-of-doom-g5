@@ -22,6 +22,7 @@ function elegirCoders() {
 }
 
 listaCoders.forEach(coderElegida =>
+
     document.getElementById("coderList").innerHTML +="<div id=showCoders><p id=textoCarta>"+coderElegida+"</p></div>"
 
 )
