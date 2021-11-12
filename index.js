@@ -20,23 +20,21 @@ let listaCoders = ["Sandra", "Valentina","Laura", "Rosa","Tamara","Judith","Hele
     showCoders.innerHTML= coderElegida;
     
     }
-<<<<<<< HEAD
-    
-
-
-
-    
-
     
 
     
 
 
 
+    
+
+    
+
+    
 
 
 
 
 
-=======
->>>>>>> 0faada810a3c3fea3b2989a8e583a1bb6a9b62bb
+
+
