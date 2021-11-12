@@ -1,8 +1,10 @@
 
-let listaCoders = ["Sandra", "Valentina", "Laura", "Rosa","Tamara","Judith","Helen","Carmen","Candy","Gabrielle","Yulilla","Anna G","Sonia","Desirée","Alisa","Faby","Ana C", "Joana","Gracia","Alexia","Marisa","Laura M","Rosa","Kristina"];
+let listaCoders = ["Sandra", "Valentina","Laura", "Rosa","Tamara","Judith","Helen","Carmen","Candy","Gabrielle","Yulilla","Anna G",
+"Sonia","Desirée","Alisa","Faby",
+"Ana C", "Joana","Gracia","Alexia","Marisa","Laura M","Rosa","Kristina"];
 
 
-{
+
     
     // Declarar variable que alude al botón
     const startButton = document.getElementById('startButton');
@@ -18,18 +20,3 @@ let listaCoders = ["Sandra", "Valentina", "Laura", "Rosa","Tamara","Judith","Hel
     showCoders.innerHTML= coderElegida;
     
     }
-    
-
-    
-
-    
-
-    
-
-
-
-
-
-
-
-
