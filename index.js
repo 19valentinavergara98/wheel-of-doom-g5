@@ -29,18 +29,10 @@ listaCoders.forEach(coderElegida =>
 
 
 
-
-
-
-
-
-
-<<<<<<< HEAD
-=======
-    showCoders.innerHTML= coderElegida;
+  
     
-    }
-<<<<<<< HEAD
+    
+
     
 
 
@@ -58,6 +50,5 @@ listaCoders.forEach(coderElegida =>
 
 
 
-=======
->>>>>>> 0faada810a3c3fea3b2989a8e583a1bb6a9b62bb
->>>>>>> c25c52706a1a33d0586ce1cf9df4ce36244b953e
+
+
