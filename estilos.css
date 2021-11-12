@@ -22,28 +22,11 @@ body {
  background-size: cover;
  text-align: center;
 }
- 
- 
-
-
-
-#coderList article {
-  justify-content: center;
-  height: 100px;
-  width: 100px;
-  padding: 50px;
-  margin: 20px;
-  border-radius: 15px;
-  background-color: transparent;
-  font
-
-}
-#nombreElegido{
+ #nombreElegido{
   color: aliceblue;
   text-align: center;
   /*align-self: flex-end;*/
   font-size: 30px;
-
 }
 header {
 
