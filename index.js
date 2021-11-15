@@ -22,7 +22,8 @@ function elegirCoders() {
 }
 
 listaCoders.forEach(coderElegida =>
-    document.getElementById("coderList").innerHTML +="<div id=showCoders><p class='showname'>"+coderElegida+"</p></div>"
+
+    document.getElementById("coderList").innerHTML +="<div id=showCoders><p id=textoCarta>"+coderElegida+"</p></div>"
 
 )
 
@@ -46,14 +47,6 @@ listaCoders.forEach(coderElegida =>
     
 
     
-
-
-
-
-
-
-
-
 
 
 
