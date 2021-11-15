@@ -38,17 +38,3 @@ listaCoders.forEach(coderElegida =>
 
     
 
-    
-
-
-
-    
-
-    
-
-    
-
-
-
-
-

@@ -14,14 +14,16 @@ main{
   }
 
 .card{
-  /*align-items: center;*/
+  align-items: center;
   margin: auto;
+
  
 }
 #coderList{
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  color:white;
 }
 #showCoders{
  width: 200px;
@@ -33,10 +35,11 @@ main{
  background-image: url("img/shooting.png");
  background-size: cover;
  text-align: center;
+ display: flex;
+ align-items: center;
 }
 .showname{
 padding: 20px;
-
 }
 
  #nombreElegido{
