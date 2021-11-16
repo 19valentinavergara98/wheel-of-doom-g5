@@ -19,6 +19,7 @@ main{
 
  
 }
+
 #coderList{
   display: inline-flex;
   flex-wrap: wrap;
@@ -74,11 +75,13 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    cursor: pointer; /*manito de interaccion*/
   }
   
   .botones {
     text-align: center;
   }
+  
 
   
 
