@@ -20,9 +20,13 @@ header {
       width: 200px;
       overflow: hidden;
     }
+h1{
+  color:  #851717;
+  
 
+}
 main{
-    width: 80%;
+    width: 90%;
     margin: auto;
   }
 
@@ -86,9 +90,7 @@ button {
   justify-content: center;
 }
 
-/* .showname{
-text-align: center;
-} */
+
 
 
 
