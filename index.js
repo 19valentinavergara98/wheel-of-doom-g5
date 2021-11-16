@@ -33,10 +33,14 @@ function elegirCoders() {
         document.getElementById("coderList").innerHTML +="<div id=showCoders><p id=textoCarta>"+coderElegida+"</p></div>"
     
     )
+    /* function agruparCoders(){
+        let grupo = listaCoders.pop(coderElegida);
+        document.getElementById("coderscard").innerHTML += "<div id=showCoders><p id=textoCarta>"+grupo+"</p></div>";
+        }
+        agruparCoders(); */
+   
 
-  /*  function mostrarCoders(){
-       
-   } */
+
 
 }
 
