@@ -10,7 +10,6 @@ let listaCoders = ["Sandra", "Valentina", "Laura", "Rosa", "Tamara", "Judith", "
     )
 
 
-
 // Declarar variable que alude al botón
 const startButton = document.getElementById('startButton');
 //Crear el eventListener "boton start, tipo click"
@@ -20,10 +19,24 @@ const showCoders = document.getElementById('nombreElegido');
 //Crear la función que nos dará el nombre aleatorio
 function elegirCoders() {
 
-    let coderElegida = listaCoders[Math.floor(Math.random() * listaCoders.length)];
+    let position = Math.floor(Math.random() * listaCoders.length)
+    let coderElegida = listaCoders.splice(position,1);
 
-    showCoders.innerHTML = coderElegida;
+    showCoders.innerHTML = coderElegida[0];
 
+    // borra la lista actual 
+    document.getElementById("coderList").innerHTML = "";
+
+    // vuelve a dibujar la lista
+    listaCoders.forEach(coderElegida =>
+
+        document.getElementById("coderList").innerHTML +="<div id=showCoders><p id=textoCarta>"+coderElegida+"</p></div>"
+    
+    )
+
+  /*  function mostrarCoders(){
+       
+   } */
 
 }
 
