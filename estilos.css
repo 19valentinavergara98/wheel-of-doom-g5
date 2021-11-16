@@ -15,7 +15,7 @@ main{
 
 .card{
   align-items: center;
-  margin: auto;
+  margin: 0 auto;
 
  
 }
@@ -23,7 +23,8 @@ main{
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  color:white;
+  color:rgb(228, 24, 24);
+  align-items: center;
 }
 #showCoders{
  width: 200px;
@@ -38,19 +39,25 @@ main{
  display: flex;
  align-items: center;
 }
+#textoCarta{
+  margin: 0 auto; 
+  margin-top: 60px;
+  text-align: center;
+  justify-content: center;
+}
 .showname{
-padding: 20px;
+text-align: center;
+
 }
 
  #nombreElegido{
-  color: aliceblue;
-  font-weight: 300;
+  margin: 0 auto; 
+  color:rgb(228, 24, 24);
   text-align: center;
-  /*align-self: flex-end;*/
+  align-self: center;
   font-size: 16px;
 }
 header {
-
   display: block;
   text-align: center;
   padding: 30px;
