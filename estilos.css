@@ -7,6 +7,12 @@ body {
     font-family: 'Montserrat Alternates', sans-serif;
     font-family: 'Orbitron', sans-serif;
     }
+    
+    .logo img{
+      height: 200px;
+      width: 200px;
+      overflow: hidden;
+    }
 
 main{
   width: 80%;
@@ -39,16 +45,17 @@ main{
  display: flex;
  align-items: center;
 }
-.showname{
+/*.showname{
 padding: 20px;
-}
+}*/
 
  #nombreElegido{
-  color: aliceblue;
+  color:red;
   font-weight: 300;
   text-align: center;
-  /*align-self: flex-end;*/
-  font-size: 16px;
+  font-size: 30px;
+  text-shadow: 1px 1px;
+  margin: auto;
 }
 header {
   display: block;
