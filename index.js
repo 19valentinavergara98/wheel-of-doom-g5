@@ -21,7 +21,7 @@ function elegirCoders() {
 
     let position = Math.floor(Math.random() * listaCoders.length)
     let coderElegida = listaCoders.splice(position,1);
-
+    
     showCoders.innerHTML = coderElegida[0];
 
     // borra la lista actual 
