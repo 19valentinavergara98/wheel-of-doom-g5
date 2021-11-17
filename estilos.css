@@ -78,7 +78,7 @@ button {
 #coderList {
   display: inline-flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   color:rgb(228, 24, 24);
   align-items: center;
  }
