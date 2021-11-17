@@ -48,6 +48,11 @@ button {
     cursor: pointer; /*manito de interaccion*/
   }
 
+  .switch {
+    cursor: pointer;
+    display: flex;
+    }
+
 #showCoders {
     width: 200px;
     height: 200px;
