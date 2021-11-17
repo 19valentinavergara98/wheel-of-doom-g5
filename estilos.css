@@ -51,6 +51,7 @@ button {
   .switch {
     cursor: pointer;
     display: flex;
+    outline: none; /* para quitar borde que google le agrega */
     }
 
 #showCoders {
