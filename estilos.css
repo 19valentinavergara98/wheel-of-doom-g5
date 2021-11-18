@@ -101,6 +101,7 @@ button {
   display: inline-flex;
   gap: 10px;
   flex-wrap: wrap;
+  display: flex;
   justify-content: space-around;
   color:rgb(228, 24, 24);
   align-items: center;
