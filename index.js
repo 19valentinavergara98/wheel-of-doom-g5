@@ -45,29 +45,16 @@ function elegirCoders() {
     // vuelve a dibujar la lista
     //llamamos a la función mostrarCoders
     mostrarCoders();
-    console.log(listaCoders);
+    //console.log(listaCoders);
     
 
 }
 
-/* function restart() {
-    listaCoders = [...codersElegidas];
-    codersElegidas = [];
+//Código modo navidad
 
-} */
+ 
 
 
-
-
-  
-    
-    
-
-
-
-    
-
-    
 
 
 
