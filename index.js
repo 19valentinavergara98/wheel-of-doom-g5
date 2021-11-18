@@ -45,16 +45,28 @@ function elegirCoders() {
     // vuelve a dibujar la lista
     //llamamos a la función mostrarCoders
     mostrarCoders();
-    console.log(listaCoders);
+    //console.log(listaCoders);
     
 
 }
 
-/* function restart() {
-    listaCoders = [...codersElegidas];
-    codersElegidas = [];
+//Código modo navidad
+const toggleTheme = document.getElementById(toggle);
+const logo = document.getElementById(logo);
+const toggleIcon = document.getElementById(toggle_theme_icon);
+const cardIcon = document.getElementById(showCoders);
 
-} */
+
+toggle.addEventListener("click", ()=>{
+    document.body.classList.toggle('navidad');
+    if(toggleIcon.src.includes('skull-crossbones-solid.svg')){
+        toggleIcon.src='img/skull-crossbones-solid.svg'
+        cardIcon.src.includes('img/papanoel2.jpg')
+        logo.src='img/logonavidad.png'
+    }else{
+       
+    }
+})
 
 
 

@@ -1,4 +1,19 @@
+/*variables css*/
+:root{
+  --primary-color: hsl(214,84%, 56%);
+  --text-color:  hsl(0,0%,31%);
+  --bg-color: hsl(0,0%,90%);
+  --bg-card-color: hls(0,0%, 98%);
+
+}
+*{
+  box-sizing: border-box;
+}
+
 body {
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
     background-image: url("https://image.freepik.com/foto-gratis/fondo-gris-pintado_53876-94041.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -8,12 +23,51 @@ body {
     font-family: 'Orbitron', sans-serif;
   }
 
+  body.navidad{
+    --text-color: hls(0,0%,83%);
+    --bg-color: hls(0,0%,45%);
+  }
+
 header {
       display: block;
+      align-items: center;
       text-align: center;
+      justify-content: center;
       padding: 30px;
       margin-top: 20px;
+      height: 75px;
     }
+  .botones{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0 1.5em;
+    margin-top: 250px;
+    
+   
+  } 
+  .btnChanges{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .toggle{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .toggle_theme_icon{
+    margin-right: 0.5em;
+    width: 15px;
+  }
+  .toggle-theme-text{
+    font-size: 0.8rem ;
+  }
+
+
     
 .logo img {
       height: 200px;
@@ -30,9 +84,7 @@ main{
     margin: auto;
   }
 
-.botones {
-    text-align: center;
-  }
+
 
 button {
     margin: 15px;
