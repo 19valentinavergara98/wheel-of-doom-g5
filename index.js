@@ -52,7 +52,7 @@ function elegirCoders() {
 }
 
 //Código modo navidad
-const logo = document.getElementsById("#toggle-theme");
+const logo = document.getElementById("#toggle-theme");
 const siluetaCarta = document.getElementById('#showCoders') 
 
  function cambiarBoom(){
@@ -68,15 +68,21 @@ function cambiarImagen(){
 //Función reproductor
 let button = document.querySelector(".reproductor")
 
-    boton.addEventListener("click", () => {
+    button.addEventListener("click", () => {
       let etiquetaAudio = document.createElement("audio")
-      etiquetaAudio.setAttribute("src", "")
+      etiquetaAudio.setAttribute("src", "audio/Bullet2.mp3")
       etiquetaAudio.play()
     })
     
 
     
+    let button2 = document.querySelector(".reproductor2")
 
+    button.addEventListener("click", () => {
+      let etiquetaAudio2 = document.createElement("audio")
+      etiquetaAudio2.setAttribute("src", "audio/calibre.mp3")
+      etiquetaAudio2.play()
+    })
     
 
 

@@ -114,9 +114,9 @@ body{
 } 
 }
 
-@media screen and (min-width: 480px) and (max-width: 780px) {
+@media screen and (min-width: 481px) and (max-width: 779px) {
   body{
-    background-image: url("img/background.oscuro.jpg");
+    background-image: url("img/background_oscuro.jpg");
   } 
 }
 
