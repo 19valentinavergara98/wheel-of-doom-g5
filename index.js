@@ -66,15 +66,21 @@ function cambiarImagen(){
 //Función reproductor
 let button = document.querySelector(".reproductor")
 
-    boton.addEventListener("click", () => {
+    button.addEventListener("click", () => {
       let etiquetaAudio = document.createElement("audio")
-      etiquetaAudio.setAttribute("src", "")
+      etiquetaAudio.setAttribute("src", "audio/Bullet2.mp3")
       etiquetaAudio.play()
     })
     
 
     
+    let button2 = document.querySelector(".reproductor1")
 
+    button2.addEventListener("click", () => {
+      let etiquetaAudio1 = document.createElement("audio")
+      etiquetaAudio1.setAttribute("src", "audio/calibre.mp3")
+      etiquetaAudio1.play()
+    })
     
 
 
