@@ -65,21 +65,14 @@ function cambiarImagen(){
     
 }
 
+//Función reproductor
+let button = document.querySelector(".reproductor")
 
-
-
- 
-    
-
-
-
-
- 
-
-
-
-
-
+    boton.addEventListener("click", () => {
+      let etiquetaAudio = document.createElement("audio")
+      etiquetaAudio.setAttribute("src", "")
+      etiquetaAudio.play()
+    })
     
 
     
