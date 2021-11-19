@@ -1,7 +1,5 @@
 body {
     margin: 0;
-    background-color: var(--bg-color);
-    color: var(--text-color);
     background-image: url("https://image.freepik.com/foto-gratis/fondo-gris-pintado_53876-94041.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,6 +7,9 @@ body {
     font-family: 'Mohave', sans-serif;
     font-family: 'Montserrat Alternates', sans-serif;
     font-family: 'Orbitron', sans-serif;
+    padding: 1em 2em;
+    box-sizing: border-box;
+    background-attachment:fixed;
   }
 
 
@@ -30,12 +31,12 @@ header {
     margin-top: 250px;
   } 
   
-  .btnChanges{
+  /* .btnChanges{
     display: flex;
     align-items: center;
     justify-content: center;
     
-  }
+  } */
 
     
 .logo img {
@@ -51,7 +52,7 @@ h1{
 main{
     width: 90%;
     margin: auto;
-  }
+   }
 
 
 
@@ -98,7 +99,9 @@ button {
 
 #coderList {
   display: inline-flex;
+  gap: 10px;
   flex-wrap: wrap;
+  display: flex;
   justify-content: space-around;
   color:rgb(228, 24, 24);
   align-items: center;
@@ -109,6 +112,29 @@ button {
   margin-top: 60px;
   text-align: center;
   justify-content: center;
+}
+
+
+@media screen and (min-width: 780px) and (max-width: 1024px) {
+body{
+  background-image: url("img/background.claro.jpg");
+} 
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px) {
+  body{
+    background-image: url("img/background.oscuro.jpg");
+  } 
+}
+
+
+@media screen and (max-width: 480px) {
+  body{
+    background-image: url("img/background.claro.jpg");
+    }
+  button{
+   display: flex;
+    } 
 }
 
 

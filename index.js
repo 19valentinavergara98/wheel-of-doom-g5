@@ -27,6 +27,7 @@ function mostrarCoders(){
          listaCoders = ["Sandra", "Valentina", "Laura", "Rosa", "Tamara", "Judith", "Helen", "Carmen", "Candy", "Gabrielle", "Yulilla", "Anna G",
     "Sonia", "Desirée", "Alisa", "Faby",
     "Ana C", "Joana", "Gracia", "Alexia", "Marisa", "Laura M", "Rosa", "Kristina"];
+    
     }
 }
 
@@ -51,6 +52,27 @@ function elegirCoders() {
 }
 
 //Código modo navidad
+const logo = document.getElementsById("#toggle-theme");
+const siluetaCarta = document.getElementById('#showCoders') 
+
+ function cambiarBoom(){
+    document.getElementById("toggle-theme").innerHTML = '<img src="img/pistolas.png" alt="imagen_pistolas">';
+} 
+
+function cambiarImagen(){
+    document.getElementById("toggle-theme").innerHTML = '<img src="img/logonavidad.png" alt="imagen_logo_navidad">';
+    document.getElementsByClassName("navidad").innerHTML = '<img src="img/background_oscuro.jpg" alt="background_otro_color">';
+    
+}
+
+
+
+
+ 
+    
+
+
+
 
  
 

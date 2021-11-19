@@ -6,23 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="img/skull-crossbones-solid.svg">
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Mohave&family=Montserrat+Alternates:wght@300&family=Orbitron&display=swap" rel="stylesheet">
     <title>Wheel of Doom </title>
     <script src="https://kit.fontawesome.com/4464afd96a.js" crossorigin="anonymous"></script> <!-- link para icono de pino de navidad -->
     <link rel="stylesheet" href="estilos.css">
     
 </head>
-<header class="logo">
-    <div class="switches">
-        <div id="logo" class="logo" >
-    <img src="img/pistolas.png" alt="imagen logo pistolas">
-    <h1 class="title">WHEEL OF BOOM</h1>
-</header>
 <body class="navidad">
+
+    <header class="logo">
+        <div class="switches">
+            <div id="toggle-theme" class="toggle-theme" >
+                <img src="img/pistolas.png" alt="imagen_logo_pistolas"> 
+            </div>
+            <h1 class="title">WHEEL OF BOOM</h1>
+        </div>
+    </header>
     <main>
         <section class="botones">
-            <button id="startButton">Start</button> 
+            <button id="startButton">start</button> 
             <button id="addcoder">Groups</button>
+            <button id="switch" class="changes"  onclick=cambiarImagen()>
+                <span><i class="fas fa-tree"></i></span>
+            </button>
+            <button id="switch" class="changes" onclick=cambiarBoom()>
+                <span><i class="fas fa-skull-crossbones"></i></span>
+            </button>
+            
+        
+             <a href=#starButton><span class="icon-chevron-down"></span></a>
             <a href=#starButton><span class="icon-chevron-down"></span></a>
             <a href=#addcoss><span class="icon-chevron-down"></span></a><span></a>
             <a href=#nightMode><span class="icon-chevron-down"></span></a><span></a>
@@ -38,5 +51,6 @@
         </section>
     </main>
     <script src="index.js"></script>
+    
 </body>
 </html>
