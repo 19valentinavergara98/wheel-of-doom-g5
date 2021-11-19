@@ -81,13 +81,15 @@ let button = document.querySelector(".reproductor")
       etiquetaAudio1.play()
     })
 
-let button3 = document.querySelector("#switch")
+      
+ let button3 = document.querySelector("#switch")
 
-    button3.addEventListener("click", () => {
-      let etiquetaAudio1 = document.createElement("audio")
-      etiquetaAudio1.setAttribute("src", "audio/calibre.mp3")
-      etiquetaAudio1.play()
-    })
+ button3.addEventListener("click", () => {
+   let etiquetaAudio1 = document.createElement("audio")
+   etiquetaAudio1.setAttribute("src", "audio/calibre.mp3")
+   etiquetaAudio1.play()
+ })
+
     
 
   
