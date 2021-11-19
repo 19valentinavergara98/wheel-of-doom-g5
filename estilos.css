@@ -29,6 +29,8 @@ header {
     justify-content: center;
     padding: 0 1.5em;
     margin-top: 250px;
+  
+
     
    
   } 
@@ -60,15 +62,16 @@ main{
 button {
     margin: 15px;
     background-color: #851717;
-    border: none;
     border-radius: 5px;
     color: white;
-    padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 16px;
     cursor: pointer; /*manito de interaccion*/
+    width: 90px;
+    height: 70px;
+    padding: 10px;
+
   }
 
 #showCoders {
@@ -134,8 +137,9 @@ body{
     background-image: url("img/background.claro.jpg");
     }
   button{
-   display: flex;
+   width: 100%;
     } 
+
 }
 
 
