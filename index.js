@@ -49,17 +49,18 @@ function elegirCoders() {
 
 }
 
-//Código modo navidad
+/* //Código modo navidad
 const logo = document.getElementById("#toggle-theme");
-const siluetaCarta = document.getElementById('#showCoders') 
+const siluetaCarta = document.getElementById('#showCoders')  */
 
  function cambiarBoom(){
     document.getElementById("toggle-theme").innerHTML = '<img src="img/pistolas.png" alt="imagen_pistolas">';
+    document.getElementsByClassName("title").innerHTML = '<h1 class="title">WHEEL OF BOOM</h1>';
 } 
 
 function cambiarImagen(){
     document.getElementById("toggle-theme").innerHTML = '<img src="img/logonavidad.png" alt="imagen_logo_navidad">';
-    document.getElementsByClassName("navidad").innerHTML = '<img src="img/background_oscuro.jpg" alt="background_otro_color">';
+    document.getElementsByClassName("title").innerHTML = '<h1 class="title">WHEEL OF BOOM</h1>';
     
 }
 
