@@ -28,9 +28,8 @@ header {
     justify-content: center;
     padding: 0 1.5em;
     margin-top: 250px;
-    
-   
   } 
+  
   .btnChanges{
     display: flex;
     align-items: center;
