@@ -45,14 +45,12 @@ function elegirCoders() {
     
     // vuelve a dibujar la lista
     //llamamos a la función mostrarCoders
-    mostrarCoders();
-    //console.log(listaCoders);
-    
+    mostrarCoders();  
 
 }
 
 //Código modo navidad
-const logo = document.getElementsById("#toggle-theme");
+const logo = document.getElementById("#toggle-theme");
 const siluetaCarta = document.getElementById('#showCoders') 
 
  function cambiarBoom(){
