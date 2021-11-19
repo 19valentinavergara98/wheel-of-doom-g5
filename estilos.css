@@ -9,6 +9,9 @@ body {
     font-family: 'Mohave', sans-serif;
     font-family: 'Montserrat Alternates', sans-serif;
     font-family: 'Orbitron', sans-serif;
+    padding: 1em 2em;
+    box-sizing: border-box;
+    background-attachment:fixed;
   }
 
 
@@ -52,7 +55,7 @@ h1{
 main{
     width: 90%;
     margin: auto;
-  }
+   }
 
 
 
@@ -112,6 +115,26 @@ button {
   margin-top: 60px;
   text-align: center;
   justify-content: center;
+}
+
+
+@media screen and (min-width: 780px) and (max-width: 1024px) {
+body{
+  background-image: url("img/background.claro.jpg");
+} 
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px) {
+  body{
+    background-image: url("img/background.oscuro.jpg");
+  } 
+}
+
+
+@media screen and (max-width: 480px) {
+  body{
+    background-image: url("img/background.claro.jpg");
+  } 
 }
 
 
